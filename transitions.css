@@ -1,0 +1,17 @@
+#red{
+    width: 500px;
+    height: 100px;
+    background: red;
+}
+
+#green {
+	width: 500px;
+    height: 100px;
+    background: green;
+    -webkit-transition: width 10s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s;
+}
+
+#green:hover {
+    width: 0px;
+}

@@ -1,0 +1,54 @@
+div {
+    display: inline-block;
+    margin: 2.5em;
+}
+
+#red1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:rotateZ(0deg);
+}
+
+
+#red2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:rotateZ(60deg);
+}
+
+#red3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:rotateZ(120deg);
+}
+
+#red4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:rotateZ(180deg);
+}
+
+#red5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:rotateZ(240deg);
+}
+
+#red6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:rotateZ(300deg);
+}
+
+#blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scale(2);
+}

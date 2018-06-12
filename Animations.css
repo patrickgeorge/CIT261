@@ -1,0 +1,102 @@
+#R {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+}
+
+#O {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    -webkit-animation-name: O; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: O;
+    animation-duration: 2s;
+}
+
+#Y {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    -webkit-animation-name: Y; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: Y;
+    animation-duration: 2s;
+}
+
+#G {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    -webkit-animation-name: G; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: G;
+    animation-duration: 2s;
+}
+
+#B {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    -webkit-animation-name: B; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: B;
+    animation-duration: 2s;
+}
+
+#I {
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    position: relative;
+    -webkit-animation-name: I; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: I;
+    animation-duration: 2s;
+}
+
+#V {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: relative;
+    -webkit-animation-name: V; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: V;
+    animation-duration: 2s;
+}
+
+@keyframes O {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes Y {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes G {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes B {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes I {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes V {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
