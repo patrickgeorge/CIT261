@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Miles Per Gallon</title>
+        <script  type="text/javascript">
+            function mpgConversion() {
+            var begin = document.getElementById("begin").value;
+            var end = document.getElementById("end").value;
+            var gallons = document.getElementById("gallons").value;
+            var miles = end - begin;
+            var mpg = miles / gallons;
+            document.getElementById("mpg").innerHTML = mpg;
+            }
+        </script>
+    </head>
+    <header>
+        <h1>Miles Per Gallon</h1>
+    </header>
+    <body>
+        <p>Input beginning reading: </p><input type="text" id="begin"><br>
+        <p>Input end reading: </p><input type="text" id="end"><br>
+        <p>Input gallons consumed: </p><input type="text" id="gallons"><br>
+        
+        <div id="mpg"></div>
+        
+        <button type="button" onclick="mpgConversion()">Push</button>
+    </body>
+</html>

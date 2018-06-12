@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <script>
+            var xml = new XMLHttpRequest();
+            var url = "storestock.txt";
+
+            xml.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var stockList = JSON.parse(this.responseText);
+                    stockUpdate(stockList);
+                }
+            };
+            
+            xml.open("GET", url, true);
+            xml.send();
+
+            function stockUpdate(stockList) {
+                var listOut = "";
+                var i;
+                for(i = 0; i < stockList.length; i++) {
+                    listOut += '<p>' + stockList[i].name + ": " +
+                    stockList[i].price + '</p><br>';
+                }
+                document.getElementById("stock").innerHTML = listOut;
+            }
+        </script>
+        <meta charset="utf-8">
+        <title>Objective 4</title>
+    </head>
+    <header>
+        <h1>Objective 4</h1>
+    </header>
+    <body>
+            <div id="stock">
+            </div>
+    </body>
+</html>

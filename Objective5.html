@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Objective 5</title>
+                <script>
+                    function testOne() {
+                        var uI = document.getElementById("userInput").value;
+                if (typeof(Storage) !== undefined ) {
+                    // Store
+                    localStorage.setItem("lastname", uI);
+                    // Retrieve
+                    document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+                } else {
+                    document.getElementById("result").innerHTML =  "Sorry, your browser does not support web storage.";
+                }
+            }
+        </script>
+    </head>
+    <header>
+        <h1>Objective 5</h1>
+    </header>
+    <body>
+        <div id="input">
+            <p>Input Name:</p> <input type="text" id="userInput">
+                <button type='button' onclick="testOne()">Try out code</button>
+        </div>
+        <div id="result"></div>
+    </body>
+</html>

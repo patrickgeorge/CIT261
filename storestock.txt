@@ -1,0 +1,14 @@
+[
+{
+"name": "Apple",
+"price": "$3.00/lb"
+},
+{
+"name": "Bananas",
+"price": "$2.00/lb"
+},
+{
+"name": "Oranges",
+"price": "$4.00/lb"
+}
+]

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Quart converter</title>
+        <script  type="text/javascript">
+            function quartConversion() {
+            var quarts = document.getElementById("input").value;
+            var liters = quarts * 0.946;
+            document.getElementById("output").innerHTML = liters;
+            }
+        </script>
+    </head>
+    <header>
+        <h1>Quart Converter</h1>
+    </header>
+    <body>
+        <p>Input number of quarts: </p><input type="text" id="input">
+        <div id="output"></div>
+        <button type="button" onclick="quartConversion()">Push</button>
+    </body>
+</html>
