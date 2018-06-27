@@ -1,0 +1,101 @@
+#box {
+    margin: 5px;
+}
+
+#R {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    border-radius:50%;
+}
+
+#O {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-duration: 5s;
+    border-radius: 50%;
+}
+
+#Y {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-duration: 5s;
+    border-radius: 50%;
+}
+
+#G {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-duration: 10s;
+    border-radius: 50%;
+}
+
+#B {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-duration: 10s;
+    border-radius: 50%;
+}
+
+#I {
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+    position: relative;
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-duration: 10s;
+    border-radius: 50%; 
+}
+
+#V {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: relative;
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-duration: 10s;
+    border-radius: 50%;
+}
+
+@keyframes O {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes Y {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes G {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes B {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes I {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}
+
+@keyframes V {
+    from {left: 0px; top: 0px;}
+    to {left: 120px; top: 0px;}
+}

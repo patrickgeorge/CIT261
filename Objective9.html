@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="TalkingBox.css">
+        <meta charset="utf-8">
+        <title>Objective 8</title>
+        <script>
+            var mouses = 0;
+            
+            var dialogue = [];
+            dialogue[0] = "...Hello?";
+            dialogue[1] = "Oh! Wow. It's a person.";
+            dialogue[2] = "Haven't seen a person in a while.";
+            dialogue[3] = "I wonder what you all get up to, sometimes.";
+            dialogue[4] = "Not that it matters much, anyway.";
+            dialogue[5] = "No one wants to tell me any of it.";
+            dialogue[6] = "All I ever get are silent types, like you.";
+            dialogue[7] = "Ah well. I've got all I need right here.";
+            dialogue[8] = "Yep. All I need.";
+            dialogue[9] = " This place is a rollercoaster.";
+            dialogue[10] = "You never know what will surprise you.";
+            dialogue[11] = "BOOM!!";
+            dialogue[12] = "Ha! Bet that got you, didn't it?";
+            dialogue[13] = "Is it getting hard to move your hand back and forth like that?";
+            dialogue[14] = "You know, I was made without a mouse out function for that reason.";
+            dialogue[15] = "Just as a little prank.";
+            dialogue[16] = "Hope you're not going too fast through the dialogue.";
+            dialogue[17] = "You";
+            dialogue[18] = "might";
+            dialogue[19] = "miss";
+            dialogue[20] = "some";
+            dialogue[21] = "thing";
+            dialogue[22] = "important";
+            dialogue[23] = "if";
+            dialogue[24] = "you're";
+            dialogue[25] = "not";
+            dialogue[26] = "careful";
+            dialogue[27] = "Well, nothing really important in the cosmic sense, I guess.";
+            dialogue[28] = "But is anything? Really?";
+            dialogue[29] = "Is anything really very important?";
+            dialogue[30] = "When we're all floating in this vast white nothingness?";
+            dialogue[31] = "Well, it's white to me, but it may not be white to you.";
+            dialogue[32] = "And even if it is white,";
+            dialogue[33] = "Is the white that I see the same as the white that you see?";
+            dialogue[34] = "How much of our perception,";
+            dialogue[35] = "is influenced by the mass opinion,";
+            dialogue[36] = "of those around us?";
+            dialogue[37] = "Ah, but now I'm going off the deep end.";
+            dialogue[38] = "Sorry to get all existential on you.";
+            dialogue[39] = "Speaking of existential,";
+            dialogue[40] = "It's a good thing you haven't clicked on me yet, or else-";
+            
+            
+            function moused(divObj) {
+                divObj.innerHTML = dialogue[mouses];
+                console.log(mouses);
+                
+                if (mouses != 40)
+                    mouses += 1;
+            }
+            
+            function clicked(divObj) {
+                divObj.parentNode.removeChild(divObj);
+            }
+        </script>
+    </head>
+    <header>
+        <h1>Objective 8</h1>
+    </header>
+    <body>
+
+        <h1>Animations</h1>
+        <div id="box" onmouseover="moused(this)" onclick="clicked(this)">
+            ...
+        </div>
+
+    </body>
+</html>

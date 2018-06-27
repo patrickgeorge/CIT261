@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="Animations8.css">
+        <meta charset="utf-8">
+        <title>Objective 8</title>
+        <script>
+            var clicks = 0;
+            
+            var names = [];
+            names[0] = "V";
+            names[1] = "I";
+            names[2] = "B";
+            names[3] = "G";
+            names[4] = "O";
+            names[5] = "Y";
+            function rollOut() {
+                document.getElementById(names[clicks]).style.webkitAnimationName = names[clicks];
+                clicks += 1;
+                console.log(clicks);
+                
+                if (clicks > 5)
+                    clicks = 0;
+            }
+        </script>
+    </head>
+    <header>
+        <h1>Objective 8</h1>
+    </header>
+    <body>
+
+        <h1>Animations</h1>
+        <div id="box">
+        <div id="R">
+            <div id="O">
+                <div id="Y">
+                    <div id="G">
+                        <div id="B">
+                            <div id="I">
+                                <div id="V">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <p>Keep Clicking!</p>
+        <button type="button" onclick="rollOut()"> Roll Out</button>
+
+    </body>
+</html>

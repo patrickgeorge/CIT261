@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Objective 6</title>
+        <script>
+            function addStock() {
+                var stockInput = document.getElementById("stockIn").value;
+                
+                var stock = document.createElement("LI");
+                var stockText = document.createTextNode(stockInput);
+                stock.appendChild(stockText);
+                
+                document.getElementById("stockList").appendChild(stock);
+            }
+            
+            function removeStock() {
+               var stockList =  document.getElementById("stockList");
+               stockList.removeChild(stockList.lastChild);
+            }
+        </script>
+    </head>
+    <header>
+        <h1>Objective 6</h1>
+    </header>
+    <body>
+        <div>
+            <p>Create a stock list</p>
+            <input type="text" id="stockIn">
+            <button type="button" onclick="addStock()">Add Item</button>
+            <button type="button" onclick="removeStock()">Remove Previous Item</button>
+            <ul id="stockList">
+            </ul>
+        </div>
+    </body>
+</html>

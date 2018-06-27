@@ -1,0 +1,15 @@
+.lit {
+    background-color: green;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+}
+

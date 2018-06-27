@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Exponents</title>
+        <script>
+            function exponents() {
+                for (var i = 0; i <= 31; i++) {
+                    document.getElementById("printTable").innerHTML += Math.pow(2, i) + ", "
+                }
+            }
+        </script>
+    </head>
+    <header>
+        <h1> Exponents</h1>
+    </header>
+    <body>
+        <div id="printTable"></div>
+        <button type="button" onclick="exponents()">Go</button>
+    </body>
+</html>

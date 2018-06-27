@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Times Tables</title>
+        <script>
+            function timesTables() {
+                var times = [];
+                var product;
+                
+                for (var i = 1; i <= 12; i++) {
+                    product = 5 * i;
+                    times[i] = product;
+                }
+                
+                for (var j = 1; j <= 12; j++) {
+                    document.getElementById("printTable").innerHTML += "5 x " + j + " = " + times[j] + "<br>";
+                }
+            }
+        </script>
+    </head>
+    <header>
+        <h1> 5 Times Tables</h1>
+    </header>
+    <body>
+        <div id="printTable"></div>
+        <button type="button" onclick="timesTables()">Go</button>
+    </body>
+</html>
