@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Missouri.jpg",
+"stateName": "Missouri",
+"statePop": "6,113,532",
+"stateNickname": "The Show Me State",
+"stateMotto": "Let the good of the people be the supreme law",
+"stateBird": "Eastern bluebird",
+"stateFlower": "Crataegus punctata"
+}
+]

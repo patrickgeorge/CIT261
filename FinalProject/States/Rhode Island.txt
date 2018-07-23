@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Rhode Island.jpg",
+"stateName": "Rhode Island",
+"statePop": "1,059,639",
+"stateNickname": "The Ocean State",
+"stateMotto": "Hope",
+"stateBird": "Rhode Isladn Red",
+"stateFlower": "Violet"
+}
+]

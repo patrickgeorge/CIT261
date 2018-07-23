@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Kansas.jpg",
+"stateName": "Kansas",
+"statePop": "2,913,123",
+"stateNickname": "The Sunflower State",
+"stateMotto": "To the stars through difficulties",
+"stateBird": "Western meadowlark",
+"stateFlower": "Wild sunflower"
+}
+]

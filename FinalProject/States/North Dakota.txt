@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/North Dakota.jpg",
+"stateName": "North Dakota",
+"statePop": "755,393",
+"stateNickname": "The Flickertail State",
+"stateMotto": "Liberty and Union, Now and Forever, One and Inseparable",
+"stateBird": "Western meadowlark",
+"stateFlower": "Wild prairie rose"
+}
+]

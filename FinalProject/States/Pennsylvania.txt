@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Pennsylvania.jpg",
+"stateName": "Pennsylvania",
+"statePop": "12,805,537",
+"stateNickname": "The Keystone State",
+"stateMotto": "Virtue, Liberty and Independence",
+"stateBird": "Ruffed grouse",
+"stateFlower": "Mountain laurel"
+}
+]

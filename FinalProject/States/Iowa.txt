@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Iowa.jpg",
+"stateName": "Iowa",
+"statePop": "3,145,711",
+"stateNickname": "The Hawkeye State",
+"stateMotto": "Our liberties we prize and our rights we will maintain",
+"stateBird": "Eastern goldfinch",
+"stateFlower": "Wild prairie rose"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Maryland.jpg",
+"stateName": "Maryland",
+"statePop": "6,052,177",
+"stateNickname": "The Old Line State",
+"stateMotto": "Strong deeds, Gentle words",
+"stateBird": "Baltimore oriole",
+"stateFlower": "Black-eyed susans"
+}
+]

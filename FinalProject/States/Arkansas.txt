@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Arkansas.jpg",
+"stateName": "Arkansas",
+"statePop": "3,004,279",
+"stateNickname": "The Natural State",
+"stateMotto": "The People Rule",
+"stateBird": "Northern mockingbird",
+"stateFlower": "Apple Blossom"
+}
+]

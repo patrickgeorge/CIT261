@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Oregon.jpg",
+"stateName": "Oregon",
+"statePop": "4,142,776",
+"stateNickname": "The Beaver State",
+"stateMotto": "She flies with her own wings",
+"stateBird": "Western meadowlark",
+"stateFlower": "Oregon Grape"
+}
+]

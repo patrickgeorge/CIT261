@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/New Mexico.jpg",
+"stateName": "New Mexico",
+"statePop": "2,088,070",
+"stateNickname": "Land of Enchantment",
+"stateMotto": "It grows as it goes",
+"stateBird": "Roadrunner",
+"stateFlower": "Yucca flower"
+}
+]

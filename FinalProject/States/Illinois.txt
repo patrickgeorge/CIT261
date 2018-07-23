@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Illinois.jpg",
+"stateName": "Illinois",
+"statePop": "12,802,023",
+"stateNickname": "The Windy State",
+"stateMotto": "State sovereignity, National Union",
+"stateBird": "Northern cardinal",
+"stateFlower": "Violet"
+}
+]

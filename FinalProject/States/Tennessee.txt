@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Tennessee.jpg",
+"stateName": "Tennessee",
+"statePop": "6,715,984",
+"stateNickname": "The Volunteer State",
+"stateMotto": "Agriculture and Commerce",
+"stateBird": "Bobwhite Quail",
+"stateFlower": "Iris"
+}
+]

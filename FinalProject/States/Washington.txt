@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Washington.jpg",
+"stateName": "Washington",
+"statePop": "7,405,743",
+"stateNickname": "The Evergreen State",
+"stateMotto": "Bye and Bye",
+"stateBird": "Willow goldfinch",
+"stateFlower": "Coast rhododendron"
+}
+]

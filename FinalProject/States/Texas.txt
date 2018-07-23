@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Texas.jpg",
+"stateName": "Texas",
+"statePop": "28,304,596",
+"stateNickname": "The Lone Star State",
+"stateMotto": "Friendship",
+"stateBird": "Northern mockingbird",
+"stateFlower": "Bluebonnet"
+}
+]

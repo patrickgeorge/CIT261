@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Oklahoma.jpg",
+"stateName": "Oklahoma",
+"statePop": "3,930,864",
+"stateNickname": "The Sooner State",
+"stateMotto": "Work conquers all",
+"stateBird": "Wild turkey",
+"stateFlower": "Oklahoma Rose"
+}
+]

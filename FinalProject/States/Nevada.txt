@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Nevada.jpg",
+"stateName": "Nevada",
+"statePop": "2,998,039",
+"stateNickname": "The Silver State",
+"stateMotto": "All for our country",
+"stateBird": "Mountain bluebird",
+"stateFlower": "Sagebrush"
+}
+]

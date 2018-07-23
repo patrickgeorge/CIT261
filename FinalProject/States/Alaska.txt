@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Alaska.jpg",
+"stateName": "Alaska",
+"statePop": "739,795",
+"stateNickname": "The Last Frontier",
+"stateMotto": "North to the future",
+"stateBird": "Willow ptarmigan",
+"stateFlower": "forget-me-not"
+}
+]

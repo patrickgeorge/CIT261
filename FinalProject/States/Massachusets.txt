@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Massachusets.jpg",
+"stateName": "Massachusets",
+"statePop": "6,859,819",
+"stateNickname": "The Pilgrim State",
+"stateMotto": "By the sword we seek peace, but peace only under liberty",
+"stateBird": "Wild turkey",
+"stateFlower": "Mayflower"
+}
+]

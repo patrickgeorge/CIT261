@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Virginia.jpg",
+"stateName": "Virginia",
+"statePop": "8,470,020",
+"stateNickname": "Old Dominion",
+"stateMotto": "Thus always to tyrants",
+"stateBird": "Northern cardinal",
+"stateFlower": "Dogwood"
+}
+]

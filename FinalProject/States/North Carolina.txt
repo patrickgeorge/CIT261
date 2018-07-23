@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/North Carolina.jpg",
+"stateName": "North Carolina",
+"statePop": "10,273,419",
+"stateNickname": "The Old North State",
+"stateMotto": "To be, rather than to seem",
+"stateBird": "Northern cardinal",
+"stateFlower": "Dogwood"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Florida.jpg",
+"stateName": "Florida",
+"statePop": "21,312,211",
+"stateNickname": "The Sunshine State",
+"stateMotto": "In God we trust",
+"stateBird": "Northern mockingbird",
+"stateFlower": "Orange blossom"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Wisconsin.jpg",
+"stateName": "Wisconsin",
+"statePop": "5,795,483",
+"stateNickname": "The Badger State",
+"stateMotto": "Forward",
+"stateBird": "American robin",
+"stateFlower": "Wood violet"
+}
+]

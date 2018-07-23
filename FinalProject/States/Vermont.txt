@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Vermont.jpg",
+"stateName": "Vermont",
+"statePop": "623,657",
+"stateNickname": "The Green Mountain State",
+"stateMotto": "May the 14th star shine bright",
+"stateBird": "Hermit thrush",
+"stateFlower": "Red clover"
+}
+]

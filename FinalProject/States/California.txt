@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/California.jpg",
+"stateName": "California",
+"statePop": "39,536,653",
+"stateNickname": "The Golden State",
+"stateMotto": "Eureka",
+"stateBird": "California quail",
+"stateFlower": "California poppy"
+}
+]

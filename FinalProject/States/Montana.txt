@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Montana.jpg",
+"stateName": "Montana",
+"statePop": "1,050,493",
+"stateNickname": "The Treasure State",
+"stateMotto": "Gold and Silver",
+"stateBird": "Western meadowlark",
+"stateFlower": "Bitterroot"
+}
+]

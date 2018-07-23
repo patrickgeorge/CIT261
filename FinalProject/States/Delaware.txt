@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Delaware.jpg",
+"stateName": "Delaware",
+"statePop": "961,939",
+"stateNickname": "The Diamond State",
+"stateMotto": "Liberty and Independence",
+"stateBird": "Delaware Blue Hen",
+"stateFlower": "Peach Blossom"
+}
+]

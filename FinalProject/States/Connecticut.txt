@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Connecticut.jpg",
+"stateName": "Connecticut",
+"statePop": "3,588,184",
+"stateNickname": "The Constitution State",
+"stateMotto": "He who transplanted still sustains",
+"stateBird": "American Robin",
+"stateFlower": "Mountain Laurel"
+}
+]

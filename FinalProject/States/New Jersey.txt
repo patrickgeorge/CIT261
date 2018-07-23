@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/New Jersey.jpg",
+"stateName": "New Jersey",
+"statePop": "9,032,872",
+"stateNickname": "The Garden State",
+"stateMotto": "Liberty and Prosperity",
+"stateBird": "Eastern goldfinch",
+"stateFlower": "Meadow violet"
+}
+]

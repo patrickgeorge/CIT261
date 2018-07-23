@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Utah.jpg",
+"stateName": "Utah",
+"statePop": "3,101,833",
+"stateNickname": "The Beehive State",
+"stateMotto": "Industry",
+"stateBird": "Seagull",
+"stateFlower": "Sego Lily"
+}
+]

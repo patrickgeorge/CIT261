@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Wyoming.jpg",
+"stateName": "Wyoming",
+"statePop": "579,315",
+"stateNickname": "The Equality State",
+"stateMotto": "Equal rights",
+"stateBird": "Western meadowlark",
+"stateFlower": "Wyoming Indian paintbrush"
+}
+]

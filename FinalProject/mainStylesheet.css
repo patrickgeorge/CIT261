@@ -1,0 +1,147 @@
+* {
+    font-family: "Calibri"
+}
+
+body {
+    background-image: url(Pictures/Classy-Patriotic-Background.jpg);
+    background-size: cover;
+}
+
+#content {
+    animation: patriot 30s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes patriot {
+    0% {
+        background-color: #ace5ee;
+    }
+    35% {
+        background-color: red;
+    }
+    75% {
+        background-color: white;
+    }
+    100% {
+        background-color: #ace5ee;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0.5rem;
+    border-bottom: solid black 1px;
+}
+
+nav a {
+       color: #de2226;
+       text-decoration: none;
+}
+
+nav li {
+    font-family: sans-serif;
+    list-style-type: none;
+    font-size: 2rem;
+    margin: 1em;
+}
+
+nav ul li a.active-page {
+    background-color: #6497b1;
+    border: 0.1em
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro img {
+    width: 95%;
+}
+
+#search input {
+    height: 1em;
+    margin: 0;
+    
+}
+
+#search label {
+    margin: 1em;
+    font-size: 0.8em;
+}
+
+#stateInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#stateInfo img {
+    width: 15em;
+    max-height: 20em;
+    margin: 4em;
+}
+
+#stateFacts {
+    margin: 4em;
+}
+
+#centerer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#animate {
+    width: 10%;
+    height: 8%;
+    -webkit-transition: background-image: url(Pictures/animatedFlag.jpg) 10s; /* For Safari 3.1 to 6.0 */
+    transition: background-image: url(Pictures/animatedFlag.jpg) 10s;
+}
+
+footer {
+    border-radius: 10px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+@media only screen and (min-width:620px)
+{
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #content {
+        width: 90%
+    }
+    
+    #search {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    #search h1 {
+        font-size: 3em;
+    }
+}

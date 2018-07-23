@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Alabama.jpg",
+"stateName": "Alabama",
+"statePop": "4,863,300",
+"stateNickname": "The Yellowhammer State",
+"stateMotto": "We dare defend our rights",
+"stateBird": "Yellowhammer",
+"stateFlower": "Camellia"
+}
+]

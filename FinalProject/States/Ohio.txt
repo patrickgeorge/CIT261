@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Ohio.jpg",
+"stateName": "Ohio",
+"statePop": "11,658,609",
+"stateNickname": "The Buckeye State",
+"stateMotto": "With God, all things are possible",
+"stateBird": "Northern cardinal",
+"stateFlower": "Scarlet Carnations"
+}
+]

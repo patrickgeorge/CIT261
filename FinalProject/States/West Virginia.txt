@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/West Virginia.jpg",
+"stateName": "West Virginia",
+"statePop": "1,815,857",
+"stateNickname": "The Mountain State",
+"stateMotto": "Mountaineers are always free",
+"stateBird": "Northern cardinal",
+"stateFlower": "Rhododendron"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Minnesota.jpg",
+"stateName": "Minnesota",
+"statePop": "5,576,606",
+"stateNickname": "The North Star State",
+"stateMotto": "Star of the North",
+"stateBird": "Common loon",
+"stateFlower": "Showy Lady's Slipper"
+}
+]

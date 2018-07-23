@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Maine.jpg",
+"stateName": "Maine",
+"statePop": "1,335,907",
+"stateNickname": "The Pine Tree State",
+"stateMotto": "I guide",
+"stateBird": "Black-capped chickadee",
+"stateFlower": "White Pinecone and Tassel"
+}
+]

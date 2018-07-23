@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Colorado.jpg",
+"stateName": "Colorado",
+"statePop": "5,607,154",
+"stateNickname": "The Centennial State",
+"stateMotto": "Nothing without providence",
+"stateBird": "Lark bunting",
+"stateFlower": "Rocky Mountain Columbine"
+}
+]

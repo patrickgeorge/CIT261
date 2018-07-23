@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Mississippi.jpg",
+"stateName": "Mississippi",
+"statePop": "2,984,100",
+"stateNickname": "The Magnolia State",
+"stateMotto": "By valor and arms",
+"stateBird": "Wood duck",
+"stateFlower": "Magnolia"
+}
+]

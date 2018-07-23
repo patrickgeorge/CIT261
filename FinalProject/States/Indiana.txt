@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Indiana.jpg",
+"stateName": "Indiana",
+"statePop": "6,666,818",
+"stateNickname": "The Hoosier State",
+"stateMotto": "The crossroads of America",
+"stateBird": "Northern cardinal",
+"stateFlower": "Peony"
+}
+]

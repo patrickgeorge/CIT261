@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/South Dakota.jpg",
+"stateName": "South Dakota",
+"statePop": "869,666",
+"stateNickname": "The Mount Rushmore State",
+"stateMotto": "Under God, the people Rule",
+"stateBird": "Ring necked pheasant",
+"stateFlower": "American pasque flower"
+}
+]

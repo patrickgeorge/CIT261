@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Georgia.jpg",
+"stateName": "Georgia",
+"statePop": "10,429,379",
+"stateNickname": "The Peach State",
+"stateMotto": "Wisdom, Justice, Moderation",
+"stateBird": "Brown thrasher",
+"stateFlower": "Cherokee rose"
+}
+]

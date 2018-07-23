@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Kentucky.jpg",
+"stateName": "Kentucky",
+"statePop": "4,454,189",
+"stateNickname": "The Bluegrass State",
+"stateMotto": "United we stand, divided we fall",
+"stateBird": "Northern cardinal",
+"stateFlower": "Goldenrod"
+}
+]

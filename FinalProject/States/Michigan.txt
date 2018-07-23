@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Michigan.jpg",
+"stateName": "Michigan",
+"statePop": "9,962,311",
+"stateNickname": "The Great Lakes State",
+"stateMotto": "If you seek a pleasant peninsula, look about you",
+"stateBird": "American robin",
+"stateFlower": "Apple blossom"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Hawaii.jpg",
+"stateName": "Hawaii",
+"statePop": "1,457,538",
+"stateNickname": "The Aloha State",
+"stateMotto": "The Life of the Land is Perpetuated in Righteousness",
+"stateBird": "Hawaiian Goose",
+"stateFlower": "Hawaiian Hibiscus"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Arizona.jpg",
+"stateName": "Arizona",
+"statePop": "7,016,270",
+"stateNickname": "The Copper State",
+"stateMotto": "God enriches",
+"stateBird": "Cactus wren",
+"stateFlower": "Saguaro Blossom"
+}
+]

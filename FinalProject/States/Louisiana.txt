@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Louisiana.jpg",
+"stateName": "Louisiana",
+"statePop": "4,684,333",
+"stateNickname": "The Pelican State",
+"stateMotto": "Union, Justice, Confidence",
+"stateBird": "Brown pelican",
+"stateFlower": "Magnolia"
+}
+]

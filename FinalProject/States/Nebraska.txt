@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Nebraska.jpg",
+"stateName": "Nebraska",
+"statePop": "1,920,076",
+"stateNickname": "The Cornhusker State",
+"stateMotto": "Equality before the law",
+"stateBird": "Western meadowlark",
+"stateFlower": "Goldenrod"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/New Hampshire.jpg",
+"stateName": "New Hampshire",
+"statePop": "1,342,795",
+"stateNickname": "The Granite State",
+"stateMotto": "Live free or die",
+"stateBird": "Purple finch",
+"stateFlower": "Purple lilac"
+}
+]

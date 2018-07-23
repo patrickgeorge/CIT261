@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/South Carolina.jpg",
+"stateName": "South Carolina",
+"statePop": "5,204,369",
+"stateNickname": "The Palmetto State",
+"stateMotto": "While I breathe, I hope",
+"stateBird": "Carolina wren",
+"stateFlower": "Yellow Jessamine"
+}
+]

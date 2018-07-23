@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="mainStylesheet.css"> 
+        <title>Welcome to the USA!</title>
+        <script>
+            function searchStates() {
+                if (typeof(Storage) !== "undefined") {
+                    var stateName = document.getElementById("searchbar").value;
+                    sessionStorage.setItem("stateKey", stateName) 
+                } else {
+                    document.getElementById("error").innerHTML = "Sorry, but this browser does not support local storage. Please try a new browser.";
+                }
+                window.location = "stateFacts.html";
+            }
+        </script>
+    </head>
+    <body>
+        <div id="content">
+            <header>
+            <h1>Welcome to the USA!</h1>
+                <nav>
+                    <ul>
+                        <li><a href="usMain.html" class="active-page" title="home">Home</a></li>
+                        <li><a href="Instructions.html" title="Instructions">Instructions</a></li>
+                        <li><a href="contactUs.html" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="intro">
+                <div id="search">
+                    <h1>Map of the United States</h1>
+                    <div>
+                        <label>Search for your state!</label>
+                        <button type="button" onclick="searchStates()">Search</button>
+                        <input id="searchbar" type="text">
+                        <p id="error"></p>
+                    </div>
+                </div>
+                <p>Find the name of a state and enter it into the search bar to get all sorts of cool info! Then come back here and find another!</p>
+                <img src="Pictures/1024px-Map_of_USA_with_state_names.svg.png" alt="map of US with state names">
+            </div>
+            <footer>
+                <p>&copy; Patrick George, All rights reserved.</p>
+                <p>All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.</p>
+                <p>Last Updated: 5 May, 2018</p>
+            </footer>
+        </div>
+    </body>
+</html>

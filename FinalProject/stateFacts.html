@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="mainStylesheet.css"> 
+        <title>State Facts!</title>
+        <script>
+            function xmlCall() {
+                 var xml = new XMLHttpRequest();
+            var url = "States/" + sessionStorage.stateKey + ".txt";
+
+            xml.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var stateFacts = JSON.parse(this.responseText);
+                    displayFacts(stateFacts);
+                }
+            };
+            
+            xml.open("GET", url, true);
+            xml.send();
+
+            function displayFacts(stateFacts) {
+                var facts = "";
+                facts += '<div id="stateInfo">';
+                facts += '<img src="' + stateFacts[0].statePicture  + '" alt = "State Picture"><br>';
+                facts += '<div id="stateFacts">';
+                facts += '<h1>' + stateFacts[0].stateName + '</h1><br>';
+                facts += '<p>Population: ' + stateFacts[0].statePop + '</p><br>';
+                facts += '<p>State Nickname: ' + stateFacts[0].stateNickname + '</p><br>';
+                facts += '<p>State Motto: ' + stateFacts[0].stateMotto + '</p><br>';
+                facts += '<p>State Bird: ' + stateFacts[0].stateBird + '</p><br>';
+                facts += '<p>State Flower: ' + stateFacts[0].stateFlower + '</p><br>';
+                facts += '</div>'
+                facts += '</div>'
+                document.getElementById("test").innerHTML = facts;
+            }
+            }
+            
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'ancuYECRGN8',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 0001);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+
+        </script>
+    </head>
+    <body onload="xmlCall()">
+        <div id="content">
+            <header>
+            <h1>Welcome to the USA!</h1>
+                <nav>
+                    <ul>
+                        <li><a href="usMain.html" class="Home" title="home">Home</a></li>
+                        <li><a href="#" title="Instructions">Instructions</a></li>
+                        <li><a href="contactUs.html" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="animate"></div>
+            <div id="test"></div>
+            <div id="centerer">
+                <div id="player"></div>
+            </div>
+        <footer>
+            <p>&copy; Patrick George, All rights reserved.</p>
+            <p>All images used are believed to be in "Fair Use". Please notify the author if any are not and they will be removed.</p>
+            <p>Last Updated: 5 May, 2018</p>
+        </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/New York.jpg",
+"stateName": "New York",
+"statePop": "19,849,399",
+"stateNickname": "The Empire State",
+"stateMotto": "Ever upward",
+"stateBird": "Eastern bluebird",
+"stateFlower": "Rose"
+}
+]

@@ -1,0 +1,11 @@
+[
+{
+"statePicture": "StatePics/Idaho.jpg",
+"stateName": "Idaho",
+"statePop": "1,716,943",
+"stateNickname": "The Gem State",
+"stateMotto": "Let it be perpetual",
+"stateBird": "Mountain bluebird",
+"stateFlower": "Syringa"
+}
+]
